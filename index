@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Document</title>
+
+  <style>
+      /*
+        rule set
+        selector is the h1
+        declaration block is everything between { }
+        every declaration has a PROPERTY and a VALUE.
+      */
+  h1 {
+      color: blue;
+  }
+  </style>
+
+</head>
+<body>
+
+    <h1> Hello, World!</h1>
+
+    <p>This is my first website.  And, wow!  Below is a line from a poem from William Stafford, "ASK ME"</p>
+
+
+    <ul>
+        <li>"Ask</li>
+        <li>me</li>
+        <li>whether</li>
+        <li>what</li>
+        <li>I</li>
+        <li>have</li>
+        <li>done</li>
+        <li>is</li>
+        <li>my</li>
+        <li>life"</li>
+    </ul>
+
+
+</body>
+</html>
