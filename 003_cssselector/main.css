@@ -1,0 +1,24 @@
+
+p{
+    font-size: 45px;
+}
+
+/* unvisited link */
+a:link {
+    color: darkred;
+}
+
+/* visited link */
+a:visited {
+    color: indigo;
+}
+
+/* mouse over link */
+a:hover {
+    color: aquamarine;
+}
+
+/* selected link */
+a:active {
+    color: darkgreen;
+}
