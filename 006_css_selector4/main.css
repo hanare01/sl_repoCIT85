@@ -1,0 +1,25 @@
+body {
+    font-size: 19px;
+    background-color: gray;
+}
+
+hi{
+    color: darkseagreen;
+    font-size: 25px;
+}
+
+div p {
+    color: indigo;
+}
+
+div > p{
+    color: navy;
+}
+
+div ~ p{
+    color: darkred;
+}
+
+div + p{
+    color: darkolivegreen;
+}

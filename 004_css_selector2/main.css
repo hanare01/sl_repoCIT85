@@ -1,0 +1,34 @@
+body, ol, li{
+    font-size: 18px;
+}
+
+article:only-child{
+    color: gold;
+    background-color: darkolivegreen;
+}
+
+ol:first-child{
+    color: green;
+}
+
+ol:last-child{
+    color: darkslateblue;
+}
+
+ol:nth-child(5){
+    background-color: deepskyblue;
+}
+
+li:nth-child(odd) {
+    background-color: cadetblue;
+}
+
+li:nth-child(even){
+    background-color: hotpink;
+}
+
+li:nth-child(2n+2){
+    color: aquamarine;
+}
+
+

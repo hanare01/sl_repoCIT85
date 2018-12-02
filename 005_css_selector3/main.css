@@ -1,0 +1,21 @@
+body   {
+    font-size: 15px;
+    max-width: 1000px;
+    border: 1px;
+    margin: 3px;
+}
+
+ul::first-letter {
+    color: darkred;
+    font-size: large;
+}
+
+ul::first-line{
+    color: steelblue;
+    background-color: lightgray;
+}
+
+
+
+
+

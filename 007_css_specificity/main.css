@@ -1,0 +1,52 @@
+/* worth 001 */
+h1{
+    color: darkslateblue;
+}
+
+/* worth 002 */
+div > h1 {
+    color: darkviolet;
+}
+
+/* worth 002 */
+div h1 {
+    color: darkviolet;
+}
+
+/* worth 004 */
+html body div > h1{
+    color: indigo;
+}
+
+/* worth 100 */
+#dragon {
+    color: darkred;
+}
+
+/* worth 011 */
+div > .avalon {
+    color: deepskyblue;
+}
+
+/* worth 010 */
+.avalon {
+    color: gold;
+}
+
+/* worth 011 */
+div .once {
+    color: lightseagreen;
+}
+
+/* worth 012 */
+div .once > h1{
+    color: mediumvioletred;
+}
+
+/* worth 101 */
+div #lengend {
+    color: steelblue;
+}
+
+
+
