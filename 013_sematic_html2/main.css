@@ -1,0 +1,17 @@
+div {
+    width: 300px;
+    height: 300px;
+    border: 2px solid darkred;
+    display: block; /*to displace block*/
+}
+
+span {
+    border: 2px solid deepskyblue;
+    display: inline-block; /*to displace inline-block*/
+}
+
+div, span {
+    padding: 50px;
+    margin: 15px;
+    box-sizing: border-box; /*instruct not to change the width*/
+}

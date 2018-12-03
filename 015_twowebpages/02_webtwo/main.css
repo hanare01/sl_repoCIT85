@@ -1,0 +1,45 @@
+html, body, div {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    box-sizing: 0;
+    font: inherit;
+    color: inherit;
+}
+
+html, body {
+    border: 1px dashed blue;
+}
+
+body {
+    width: 80%;
+    margin: 100px auto;
+    padding: 35px;
+}
+
+div {
+    width: 100px;
+    height: 50px;
+    border: 2px solid black;
+    margin: 15px auto;
+    border-radius: 10%;
+}
+
+
+
+#one {
+    background-color: #FF0000;
+}
+
+#two {
+    background-color: #0000FF;
+}
+
+#three {
+    background-color: #FFD700;
+}
+
+#four {
+    background-color: #308014;
+}
+

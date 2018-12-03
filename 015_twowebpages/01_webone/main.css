@@ -1,0 +1,40 @@
+html, body, main {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    font: inherit;
+    color: inherit;
+}
+
+body {
+    background-color: dodgerblue;
+}
+
+main {
+    width: 50%;
+    border: 3px solid blue;
+    margin: 0 auto;
+    background-color: green;
+}
+
+
+div {
+    width: 200px;
+    height: 200px;
+    border-radius: 50% 50%;
+    border: 3px groove yellow;
+    margin: 0 auto;
+    background-image: url("/../untitled/005_week5/015_twowebpages/01_webone/01/fulton.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#s1 {
+    color: blue;
+}
+
+#s2  {
+    color: red;
+}
