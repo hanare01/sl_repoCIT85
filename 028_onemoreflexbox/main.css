@@ -1,0 +1,47 @@
+html, body, header, main, aside, footer {
+    border: 0;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font: inherit;
+    color: inherit;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.attr {
+    flex-basis: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header  {
+    background-color: red;
+}
+
+main {
+    background-color: deepskyblue;
+}
+
+#h {
+    height: 200px;
+}
+
+
+aside#s1 {
+    background-color: goldenrod;
+}
+
+aside#s2 {
+    background-color: deeppink;
+}
+
+footer {
+    background-color: lightseagreen;
+}

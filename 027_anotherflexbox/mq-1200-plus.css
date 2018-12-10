@@ -1,0 +1,13 @@
+ul {
+    background-color: deepskyblue;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+
+}
+
+li {
+    border: none;
+
+}

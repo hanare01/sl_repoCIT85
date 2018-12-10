@@ -1,0 +1,31 @@
+html, body, div {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font: inherit;
+    color: inherit;
+}
+
+* {
+    border: 2px solid red;
+}
+
+body {
+    margin: 2px;
+    text-align: center;
+}
+
+div {
+    height: 100px;
+    width: 100px;
+    background-color: lightskyblue;
+    color: #FFF;
+}
+
+#sample {
+    position: relative;
+    top: 20px;
+    left: 20px;
+    background-color: lightseagreen;
+}

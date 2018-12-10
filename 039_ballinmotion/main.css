@@ -1,0 +1,42 @@
+html, body, div {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    font: inherit;
+    color: inherit;
+}
+
+body {
+    color: rosybrown;
+    display: flex;
+    align-items: center;
+}
+
+div {
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border: 2px solid darkred;
+    font-size: 3rem;
+    color: darkred;
+    background-color: lightcoral;
+}
+
+.circle {
+    position: relative;
+    left: 0;
+    animation-name: movecircle;
+    animation-duration: 3s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes movecircle {
+    0% {left: 0;}
+    100% {left: 85%}
+}

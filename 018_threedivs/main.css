@@ -1,0 +1,29 @@
+html, body, main, div {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    font: inherit;
+    color: inherit;
+    box-sizing: border-box;
+}
+
+main {
+    display: flex; /* make main a flex container */
+    margin: 3px;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-content: flex-start;
+}
+
+div {
+    width: 250px;
+    height: 100px;
+    border: 2px solid black;
+    font: bold 0.7rem/1 sans-serif;
+    display: flex;
+    flex-grow: 1;
+
+}
+
+
+

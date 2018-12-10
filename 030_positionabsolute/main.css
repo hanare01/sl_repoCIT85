@@ -1,0 +1,39 @@
+html, body, div {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font: inherit;
+    color: inherit;
+}
+
+html {
+    border: 2px solid lightsalmon; /*position: relative*/
+}
+
+body {
+    width: 40%;
+    border: 2px solid darkseagreen;
+}
+
+div {
+   border: 2px solid red;
+    text-align: center;
+    color: black;
+}
+
+#sample {
+    position: relative;
+    width: 600px;
+    height: 500px;
+    background-color: lightpink;
+}
+
+#sample2 {
+    position: absolute;
+    top: 120px;
+    right: 20px;
+    width: 300px;
+    height: 200px;
+    background-color: lightcoral;
+}

@@ -1,0 +1,54 @@
+html, body, section, nav, main, ul, li {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-basis: 100%;
+    flex-direction: row;
+    flex-flow: row wrap;
+    width: 70%;
+    margin: 20px auto;
+    border: 3px groove lightpink;
+}
+
+nav {
+    width: 100%;
+    padding: 10px;
+    justify-content: space-between;
+    align-content: center;
+
+}
+
+main {
+   width: 100%;
+    padding: 10px;
+}
+
+nav, main {
+    border: 2px solid orangered;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-content: center;
+
+
+}
+
+li:hover {
+    color: #FF0000;
+    cursor: pointer;
+}
+
+section {
+    margin-bottom: 10px;
+}
+

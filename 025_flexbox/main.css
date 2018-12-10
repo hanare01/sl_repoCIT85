@@ -1,0 +1,36 @@
+html, body, section, nav, p{
+    padding: 0;
+    border: 0;
+    margin: 0 auto;
+    box-sizing: border-box;
+    color: inherit;
+    font: inherit;
+}
+
+/*background image owned by me, SL*/
+#atf {
+    height: 100vh;
+    border: 10px solid red;
+    background-image: url("../../../untitled/008_week8/023_flexbox/01/background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    /*centering text*/
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+p {
+    color: whitesmoke;
+    font: small-caps 5rem/1 'smythe';
+    text-align: center;
+    align-content: center;
+    text-shadow: 4px 4px 4px grey;
+    flex-basis: 50%;
+}
+
+

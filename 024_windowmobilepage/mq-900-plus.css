@@ -1,0 +1,18 @@
+nav {
+    width: 15%;
+
+}
+
+main {
+    width: 85%;
+}
+
+ul {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: center;
+}
+
+li {
+    padding: 5px 0;
+}

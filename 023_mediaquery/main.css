@@ -1,0 +1,82 @@
+html, body, main, div {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    font: inherit;
+    color: inherit;
+    box-sizing: border-box;
+}
+
+main {
+    height: 100vh;
+    border: 2px dashed red;
+    display: flex; /* make main a flex container */
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-content: flex-start;
+}
+
+div {
+    height: 200px;
+    width: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#s1 {
+    background-color: coral;
+ }
+
+#s2 {
+    background-color: lightcyan;
+}
+#s3 {
+    background-color: greenyellow;
+}
+
+#s4 {
+    background-color: yellow;
+}
+#s5 {
+    background-color: rebeccapurple;
+}
+
+
+@media (max-width: 1200px) {
+    #s1 {
+        width: 100%;
+    }
+
+    #s2 {
+        width: 60%;
+    }
+
+    #s3 {
+        width: 40%;
+    }
+
+    #s4 {
+        width: 40%;
+    }
+
+    #s5 {
+        width: 60%;
+    }
+
+    div {
+        height: 150px;
+        border: 1px solid black;
+        background-color: steelblue;
+        font: bold 2rem/1 sans-serif;
+        display: flex;
+        flex-wrap: nowrap;
+        flex-grow: 1;
+        justify-content: center;
+        align-items: center;
+    }
+
+}

@@ -1,0 +1,20 @@
+div, img {
+    border: 2px solid darkred;
+    margin: 20px;
+}
+
+div {
+    overflow: auto;
+    padding: 5px;
+    text-align: justify;
+}
+
+#right {
+    float: right;
+    text-align: right;
+}
+
+#left {
+    float: left;
+
+}

@@ -1,0 +1,40 @@
+html, body, div {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    font: inherit;
+    color: inherit;
+}
+
+body {
+    color: rosybrown;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div {
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border: 2px solid darkred;
+    font-size: 3rem;
+    color: darkred;
+    background-color: lightcoral;
+}
+
+div {
+    animation-name: continuous;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes continuous {
+    0% {background: lightcoral}
+    100% {background: royalblue}
+}

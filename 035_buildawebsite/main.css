@@ -1,0 +1,59 @@
+html, body, main, ul, li {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    font: inherit;
+    color: inherit;
+}
+
+
+main {
+    font: 10rem roboto;
+    text-align: center;
+    text-shadow: 5px 2px black;
+}
+
+#atf {
+    height: 100vh;
+    border: 3px solid grey;
+    background-image: url("../../../untitled/012_week12/033_buildawebsite/pic/theHouse.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: whitesmoke;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+span {
+    border: 2px solid saddlebrown;
+    display: inline-block;
+    padding: 25px;
+    margin: 15px;
+    box-sizing: border-box;
+    box-shadow: 1px 3px;
+}
+
+a {
+    text-decoration-line: none;
+    border-radius: 10px;
+}
+
+span:hover {
+    background-color: gray;
+}
+
+li {
+    list-style-type: none;
+}

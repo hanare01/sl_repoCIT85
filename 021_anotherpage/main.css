@@ -1,0 +1,50 @@
+body {
+    display: flex; /* make main a flex container */
+    width: 100%;
+    flex-flow: row wrap;
+    padding: 0;
+    margin: 0 auto;
+}
+
+
+.a1, .a2, .a3, .a4 {
+    width: 100%;
+    min-height: 150px;
+}
+
+@media (min-width: 600px) {
+    .a1 {
+        width: 25%;
+    }
+
+    .a4 {
+        width: 75%;
+    }
+}
+
+@media (min-width: 800px) {
+    body {
+        width: 800px;
+    }
+}
+
+.a1 {
+    color: white;
+    background-color: blue;
+}
+
+.a2 {
+    color: white;
+    background-color: dodgerblue;
+}
+
+.a3 {
+    color: white;
+    background-color: royalblue;
+}
+
+.a4 {
+    color: white;
+    border: 2px solid darkred;
+    box-sizing: border-box;
+}
